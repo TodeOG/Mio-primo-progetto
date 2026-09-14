@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(0, 50, 231)
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #680094;
+  text-align: center;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+p{
+  color: green 
+  font-size: 20px
+}
+.testo-speciale {
+  color: purple;
+  font-weight:bold;
+}
+.contenitore-flex {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.box {
+  background-color:#3498db;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 24px;
+}
+.pagina-centrata {
+ display: flex;
+  justify-content: center;  /* centra orizzontalmente */
+  align-items: center;      /* centra verticalmente */
+  height: 100vh;            /* alto quanto tutto lo schermo */
+  background-color: #e74c3c;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+}
